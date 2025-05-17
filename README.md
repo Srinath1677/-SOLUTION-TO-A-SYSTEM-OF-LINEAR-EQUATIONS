@@ -21,15 +21,14 @@ Developed by: Srinath YG
 Register Number: 212224230274
 ```python
 import numpy as np
-
-A = [[1, 3], [2, 5]]
-B = np.array([5, -3])
-C = np.linalg.solve(A, B)
-
+A=[5,-3,-10],[2,2,-3],[-3,-1,5]
+B=np.array([-9,4,-1])
+C=np.linalg.solve(A,B)
 print(C)
 ```
 ## Output:
-![436866895-64de3b7d-e05f-41ba-92ec-4ac8aac2d9f5](https://github.com/user-attachments/assets/9caf855f-96a5-4f6c-834f-fbd092ea7b67)
+![image](https://github.com/user-attachments/assets/2d1b2a0c-c7a2-4c46-ae4f-c3e37f2a77ed)
+
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
